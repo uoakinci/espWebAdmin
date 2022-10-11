@@ -147,6 +147,7 @@ Web interface consists of unified and minified versions of following files in di
 -   script.js
 -   style.css
 -    [<b>codeflask.js</b>](https://github.com/kazzkiq/CodeFlask) ([minified](https://unpkg.com/codeflask/build/codeflask.min.js))
+-   Icons comes from [icon8](https://icons8.com)) website
 
 <br>
 <br>
