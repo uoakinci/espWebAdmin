@@ -68,7 +68,7 @@ Web based administrator tools for ESP32 and ESP8266  micro devices.
         {
             ...
             //Construct or begin web admin server with variables
-            server.begin( LittleFS , "/admin" , "username" , "password" );
+            server.begin( LittleFS ,80 ,"/admin" , "username" , "password" );
             ...
             //ewaServer object can be used as ESPAsyncWebServer pointer
             server->on("/",[](AsyncWebServerRequest *request)
@@ -89,7 +89,7 @@ Web based administrator tools for ESP32 and ESP8266  micro devices.
                 void start()
                 {
                     ...
-                    espWebAdminServer srv( LittleFS , "/admin" , "username" , "password" );
+                    espWebAdminServer srv( LittleFS ,80 ,"/admin" , "username" , "password" );
                     somePrintPointerUsingFunction(srv->getLogger());
                     ...
                 }
@@ -99,7 +99,7 @@ Web based administrator tools for ESP32 and ESP8266  micro devices.
                 void start()
                 {
                     ...
-                    espWebAdminServer( LittleFS , "/admin" , "username" , "password" );
+                    espWebAdminServer( LittleFS ,80 ,"/admin" , "username" , "password" );
                     ...
                 }
             
