@@ -71,13 +71,13 @@ Web based administrator tools for ESP32 and ESP8266  micro devices.
             server.begin( LittleFS , "/admin" , "username" , "password" );
             ...
             //ewaServer object can be used as ESPAsyncWebServer pointer
-            ewaServer->on("/",[](AsyncWebServerRequest *request)
+            server->on("/",[](AsyncWebServerRequest *request)
             {
                 return request->send(200, "text/plain", "Server Index Page Handler");
             });
             ....
             //Logger object can be obtained from server
-            espWebAdminLogger logger=ewaServer->getLogger();
+            espWebAdminLogger logger=server->getLogger();
             ....
             //logger object can be used as any Print class pointer (eg. Serial pointer)
             logger->println("Start completed.");
@@ -147,6 +147,7 @@ Web interface consists of unified and minified versions of following files in di
 -   script.js
 -   style.css
 -    [<b>codeflask.js</b>](https://github.com/kazzkiq/CodeFlask) ([minified](https://unpkg.com/codeflask/build/codeflask.min.js))
+-   Icons comes from [icon8](https://icons8.com) website
 
 <br>
 <br>
