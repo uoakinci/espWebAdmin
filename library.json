@@ -1,5 +1,5 @@
 {
-    "name": "EspWebAdmin",
+    "name": "espWebAdmin",
     "version": "0.0.1",
     "description": "Web Admin tool for esp32 and esp8266 micro devices",
     "keywords": "esp32, esp8266, webadmin",

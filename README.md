@@ -41,11 +41,11 @@ Web based administrator tools for ESP32 and ESP8266  micro devices.
 
             
             -lib_deps =
-                https://github.com/uoakinci/EspWebAdmin @ *
+                https://github.com/uoakinci/espWebAdmin.git
             
     - Or download globally in pio command line interface with git capabilities. (Not recommended by the community)
 
-            pio pkg install -g --library https://github.com/uoakinci/EspWebAdmin.git
+            pio pkg install -g --library https://github.com/uoakinci/espWebAdmin.git
 
 <br>
 <br>
