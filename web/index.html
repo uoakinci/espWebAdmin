@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.min.css">
+        <link rel="shortcut icon" href="data:image/png;base64,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" />
+        <title>EspWebAdmin</title>
+    </head>
+    <body>
+        <div id="header">
+            <div class="left_items">
+                <h1 id="logo">ESPWebAdmin</h1>
+            </div>
+            <div id="espData" class="left_items">
+                    <table class="esp-data">
+                    </table>
+            </div>
+            <div id="toolbox" class="right_items">
+                <img id="saveImg" class="big-icon hidden" title="Save File" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABeklEQVRoge2YS1LDMAyGHYYJx6FrysG4QHkcA3awY8MFWm5CuoEz8LHAzHQaP2LJTjzU3yqt3F/6K8fJyJhGo5EE0AMPwJ7leAZ6rZH7BQ0c8orGDDBYoStPHABxgnDuP77UZmKFzmTkEvi012/AhVhMGp+g/360hbYubWCl6swMRkb4tFWdmcuIp/CRtthMbUbs9+lmajRiY4f3zEtSIkk8RT/FiI2v7JLvpESSeIp+qpHQmjNpQVo0f4aLJYzsjj5vnau0lN5amtyhNZKO7K3gWvBbL8C1vRxyCcY6ckdZNpr6Uoz01szgKELDB7Ah8k6VzcjS+Opb7PjNTTNSG6drhLJTloHfE1E3QbGFBk8t5pmy3ErrSzESnLJoANZW2/t0z2lkmpAQaf7TvdlrpRmpjWakNpqR2mhGaiNqpPQrSa78/6Yj57EFXdd1cxSize/qSJEBXA4IDPFcHXkyxtwYY3ahrVn6vonoP04RKDWAy8GkIV6j0RjzA36N/QmWGFk5AAAAAElFTkSuQmCC"/>
+                <img id="diskImg" class="big-icon" src=""/>
+                <img id="binImg"  class="big-icon" title="Upload Sketch or FS" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADG0lEQVR4nO2bOWhUQRyHf5NEowQlFmqhKGilRILEwqhYeDTiATYWQbCLhSJWiigWdoq1CIKCiVgIgmChhWATC62UBMEDhKhFCOYwHrk+i32Js8luMslO9h/NfM2+3TfHN7/N8ua9mUiJRCJhBLAE2GjtYQKwBnhDjmuAs3YqG8AG4D353AWqrN3mHKAO+ExhHgFLrR3nDGA30OMNeHTCK8AzYLm1a3SAg8APb8Bngd7s/U3gqRfCK2CVtXM0gCZgMBvcEHAi+3wsgOtANfDAC+EtsM7avWSAU8BINqgB4IB3bjyA7H0lcMsL4Quwxc6+RIBz3mC+AbsmnM8LIPvMAVe9et3A9vLblwhwxRvEV6C+QJlJAXjnLnj1+4C68phHAniZyX+kyGxvqgCy883AcFameW6NIwPUA5eB1VOUmTKArMwe4Dz/4/wgJIC5psKq4/lCCsBawJoUgLWANSXdfwMrJS0rcGpUUqdzbriU9r1+qiStVeEvrN851xWjn1CZzUCrdwkrRgfTPOAInAdUZW1NRS/QAmyKP+J8mePA72lkxvgO1EzTXkgANVlbIfwCmmYypuCfALBX0m1JlZKQdF9Sm6TBIlXanHMDM5EphHNuAGiU1FikyGJJOyUdk1Qt6Q7Q6Zx7Xmrf45C7Q2v3Ut4Xqd1oM0Fgf+YG8JqYD1mBbd6f2cWI7UadCgOXPM+tIXVCL4P+Q4nWmauVjXve8aTb70KEBlDrHXcH65Qf/3K4IqRCaAD/4qJFkPOCnwmmAKwFrEkBWAtYkwKwFrDGOoCuCa9lx3pDwmHl7uRarARMA3DOdUjqsHSw/gmYkwKwFrAmBWAtYE0KwFrAmhSAtYA1KQBrAWtSAIHl+rzj2qKl7PHXAnpCKoQG0O4dHw3WKT++W3vRUjMFqAA+ZGtu/UBDtMYjATR4y+jvgKAvN3jFBzgi6WFWZ0jSDUkvJI3MRjgilZJ2SDopaZFyS/eHnHOPo/cEnOHv1tX5yDBwOvrAJ4TQSO6fG4Zsx5rHEPCEWewqn/WiJ7ntL+slWe/h/SnpU4zdKIlEYuHxB1FwnRvQWLzYAAAAAElFTkSuQmCC">
+            </div>
+        </div>
+        <div id="content">
+            <div id="explorer">
+                <ul id="root_list" class="nested active">
+                    <li><div id="log_dir" class="file-name directory selected-file"><span class="icon folder-open-icon"></span><span>Logs</span></div><div class="tools directory file-name selected-file"><span id="clearLogs" class="icon delete-icon" title="Clear logs." ></span></div></li>
+                    <li><div id="root_dir" class="file-name directory"><span class="icon folder-icon"></span><span>Filesystem</span></div><div class="tools directory file-name"></div></li>
+                </ul>
+            </div>
+        </div>
+        <dialog id="generalError" class="espDialog">
+            <div class="dialogHeader">
+                <h2>ERROR</h2>
+            </div>
+            <div class="dialogBody">
+                <br>
+                <h4 id="generalErrorStatus" class="" style="margin-left: 10px;"></h4>
+            </div>
+        </dialog>
+        <dialog id="uploadBinary" class="espDialog">
+            <div class="dialogHeader">
+                <h2>Binary image upload</h2>
+            </div>
+            <div class="dialogBody">
+                <fieldset>
+                <legend class="dialogLegend">Binary file</legend>
+                <input type="file"  id="binaryFile" class="hidden"/>
+                <button id="binaryFileButton" class="dialogButton" onclick="document.getElementById('binaryFile').click()">Select file</button>
+                </fieldset>
+                <fieldset>
+                    <legend class="dialogLegend">Binary type</legend>
+                    <input type="radio" id="sketchImage" class="binaryTypeRadio" name="binaryType" value="APP" selected\><label for="sketchImage">Sketch</label><br/>
+                    <input type="radio" id="fsImage" class="binaryTypeRadio" name="binaryType" value="FS"\><label for="fsImage">Filesystem</label><br/>
+                </fieldset>
+                <progress id="binaryProgressBar" value="0" max="100" style="width:100%;"></progress></br>
+                <i id="binaryProgressStatus" class="status-text" >Waiting file...</i>
+            </div>
+            <div class="dialogFooter">
+                <button id="binaryUploadButton" class="dialogButton">Upload</button>
+                <button class="dialogButton dialogClose">Cancel</button>
+            </div>
+        </dialog>
+        <dialog id="uploadFile" class="espDialog">
+            <div class="dialogHeader">
+                <h2>File upload</h2>
+            </div>
+            <div class="dialogBody">
+                <fieldset>
+                <legend class="dialogLegend">Files</legend>
+                <input type="file"  id="uploadFileSelect" class="hidden" multiple/>
+                <button id="binaryUploadButton" class="dialogButton"onclick="document.getElementById('uploadFileSelect').click()">Select files</button>
+                </fieldset>
+                <fieldset>
+                    <legend class="dialogLegend">Directory</legend>
+                    <input type="text" id="uploadFileDir" class="dialogTextInput" value="" \>
+                </fieldset>
+                <progress id="uploadFileprogressBar" value="0" max="100" style="width:100%;"></progress></br>
+                <i id="uploadFileProgressStatus" class="status-text">Waiting file...</i>
+            </div>
+            <div class="dialogFooter">
+                <button id="uploadFileUploadButton" class="dialogButton">Upload</button>
+                <button class="dialogButton dialogClose">Cancel</button>
+            </div>
+        </dialog>
+        <dialog id="deleteFile" class="espDialog">
+            <div class="dialogHeader">
+                <h2>Delete File</h2>
+            </div>
+            <div class="dialogBody">
+                <fieldset>
+                <legend class="dialogLegend">File</legend>
+                <input type="text"  id="deleteFileSelect" class="dialogTextInput"/></br>
+                </fieldset>
+                <fieldset>
+                    <h4> Do you want to delete this file? </h4>
+                </fieldset>
+                <i id="deleteFileStatus" class="status-text red-text"></i>
+            </div>
+            <div class="dialogFooter">
+                <button id="deleteFileButton" class="dialogButton">Delete</button>
+                <button class="dialogButton dialogClose">Cancel</button>
+            </div>
+        </dialog>
+        <dialog id="deleteFolder" class="espDialog">
+            <div class="dialogHeader">
+                <h2>Delete Folder</h2>
+            </div>
+            <div class="dialogBody">
+                <fieldset>
+                <legend class="dialogLegend">Folder</legend>
+                <input type="text"  id="deleteFolderSelect" class="dialogTextInput"/></br>
+                </fieldset>
+                <fieldset>
+                    <h4> Do you want to delete this folder and all of its contents? </h4>
+                </fieldset>
+                <i id="deleteFolderStatus" class="status-text red-text"></i>
+            </div>
+            <div class="dialogFooter">
+                <button id="deleteFolderButton" class="dialogButton">Delete</button>
+                <button class="dialogButton dialogClose">Cancel</button>
+            </div>
+        </dialog>
+        <dialog id="cerateFolder" class="espDialog">
+            <div class="dialogHeader">
+                <h2>Create Folder</h2>
+            </div>
+            <div class="dialogBody">
+                <fieldset>
+                <legend class="dialogLegend">Folder</legend>
+                <input type="text"  id="createFolderSelect" class="dialogTextInput"/></br>
+                </fieldset>
+                <fieldset>
+                    <h4> Do you want create this folder? </h4>
+                </fieldset>
+                <i id="createFolderStatus" class="status-text red-text"></i>
+            </div>
+            <div class="dialogFooter">
+                <button id="createFolderButton" class="dialogButton">Create</button>
+                <button class="dialogButton dialogClose">Cancel</button>
+            </div>
+        </dialog>
+        <dialog id="cerateFile" class="espDialog">
+            <div class="dialogHeader">
+                <h2>Create File</h2>
+            </div>
+            <div class="dialogBody">
+                <fieldset>
+                <legend class="dialogLegend">File</legend>
+                <input type="text"  id="createFileSelect" class="dialogTextInput"/></br>
+                </fieldset>
+                <fieldset>
+                    <h4> Do you want create this file? </h4>
+                </fieldset>
+                <i id="createFileStatus" class="status-text red-text"></i>
+            </div>
+            <div class="dialogFooter">
+                <button id="createFileButton" class="dialogButton">Create</button>
+                <button class="dialogButton dialogClose">Cancel</button>
+            </div>
+        </dialog>
+        <script src="codeflask.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

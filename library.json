@@ -1,0 +1,85 @@
+{
+    "name": "EspWebAdmin",
+    "version": "0.0.1",
+    "description": "Web Admin tool for esp32 and esp8266 micro devices",
+    "keywords": "esp32, esp8266, webadmin",
+   
+    "license": "MIT",
+      "dependencies": [
+        {
+          "owner":"thijse",
+          "name":"ArduinoLog",
+          "version":"^1.1.1",
+          "frameworks" :"Arduino",
+          "platforms": ["espressif32","espressif8266"]
+        },
+        {
+          "owner": "bblanchon",
+          "name": "ArduinoJson",
+          "version": "^6.16.1",
+          "platforms": ["espressif32","espressif8266"]
+        },
+        {
+          "owner": "*",
+          "name": "Update",
+          "version": "*",
+          "platforms": ["espressif32","espressif8266"]
+        },
+        {
+          "owner": "*",
+          "name": "FS",
+          "version": "*",
+          "platforms": ["espressif32","espressif8266"]
+        },
+        {
+          "owner": "*",
+          "name": "LittleFS",
+          "version": "*",
+          "platforms": ["espressif32","espressif8266"]
+        }, 
+        {
+          "owner": "*",
+          "name": "WiFi",
+          "version": "*",
+          "platforms": ["espressif32"]
+        }, 
+        {
+          "owner": "*",
+          "name": "ESP8266WiFi",
+          "version": "*",
+          "platforms": ["espressif8266"]
+        },
+        {
+          "owner": "*",
+          "name": "ESPmDNS",
+          "version": "*",
+          "platforms": ["espressif32"]
+        }, 
+        {
+          "owner": "*",
+          "name": "ESP8266mDNS",
+          "version": "*",
+          "platforms": ["espressif8266"]
+        },
+        {
+            "owner": "me-no-dev",
+            "name": "AsyncTCP",
+            "version": "1.1.1",
+            "platforms": ["espressif32"]
+        },
+        {
+            "owner": "me-no-dev",
+            "name": "ESPAsyncTCP",
+            "version": "^1.2.2",
+            "platforms": ["espressif8266"]
+        },
+        {
+            "owner": "me-no-dev",
+            "name": "ESPAsyncWebServer",
+            "version": "*",
+            "platforms": ["espressif8266","espressif32"]
+        }
+      ],
+    "frameworks": "Arduino",
+    "platforms": ["espressif32","espressif8266"]
+  }
